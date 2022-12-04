@@ -1,0 +1,55 @@
+a {
+    text-decoration: none;
+
+}
+
+.footer {
+    width: 100%;
+    background: #F1F6FA;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #292D33;
+}
+
+.footer-text {
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #292D33;
+    text-decoration: none;
+
+}
+
+.footer-row1 {
+    width: 100;
+    border-bottom: 1px solid #C9DCEC;
+}
+
+
+.footer-last {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #9497A1;
+}
+
+.footer-last2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #9497A1;
+}
+
+.react-icons{
+    width: 24px;
+    height: 24px;
+}

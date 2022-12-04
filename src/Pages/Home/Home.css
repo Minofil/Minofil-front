@@ -1,0 +1,491 @@
+/* welcome section */
+.section-home {
+    width: 100%;
+    
+}
+
+
+
+.Welcome-text {
+    width: 100%;
+    height: 371px;
+}
+
+.textheader {
+    width: 100%;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 60px;
+    letter-spacing: -0.015em;
+    color: #292D33;
+}
+
+.textWelcome {
+    width: 100%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+    color: #9497A1;
+
+}
+
+.welcomeButton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 100%;
+    height: 54px;
+}
+
+.btn1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 46px;
+    gap: 12px;
+    width: 190px;
+    height: 54px;
+    background: #2D9CDB;
+    box-shadow: 0px 12px 30px rgba(24, 92, 255, 0.18);
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+
+.img{
+    height: 418px;
+    width:100%;
+}
+
+.btn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 26px;
+    gap: 10px;
+    width: 222px;
+    height: 54px;
+    border-radius: 6px;
+    border: #292D33 solid 1px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #292D33;
+}
+
+.welcome-image {
+    width: 100%;
+}
+
+.clientLogo {
+    width: 100%;
+}
+
+
+
+
+
+/* about section */
+
+.aboutSection {
+    width: 100%;
+    background: #F1F6FA;
+}
+
+/* .about-header {
+    border: #508fee solid 1px;
+} */
+
+.abouttextdiv {
+    width: 629px;
+}
+
+.about-welcome {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #292D33;
+}
+
+.about-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #9497A1;
+}
+
+.about-items {
+    padding: 46px 35px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px 17px rgba(10, 10, 11, 0.04);
+    border-radius: 6px;
+}
+
+.about-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px;
+    gap: 10px;
+
+    width: 70px;
+    height: 70px;
+    border: 1px solid #F1F6FA;
+    border-radius: 12px;
+}
+
+.items-heading {
+    width: 280px;
+    height: 33px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+    color: #292D33;
+}
+
+.items-text {
+    width: 280px;
+    height: 112px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    color: #9497A1;
+
+}
+
+
+/* mining pool */
+
+.miningSection {
+    width: 100%;
+}
+
+.mining-welcome {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #292D33;
+}
+
+.mining-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #9497A1;
+}
+
+.btn-estimator1 {
+    width: 217px;
+    height: 54px;
+    background: #2D9CDB;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    box-shadow: 0px 12px 30px rgba(24, 92, 255, 0.18);
+    border-radius: 6px;
+
+}
+
+.btn-estimator2 {
+    width: 217px;
+    height: 54px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    border: 1px solid #0090FF;
+    color: #0090FF;
+    filter: drop-shadow(0px 12px 30px rgba(24, 92, 255, 0.18));
+    border-radius: 6px;
+
+}
+
+.all-btn{
+    border: #000000 solid 1px;
+}
+
+.cal-1{
+    width: 180px;
+    height: 68px;
+border: #3d94f2 solid 1px;
+border-radius: 5px;
+font-weight: 400;
+font-size: 32px;
+line-height: 33px;
+text-align: center;
+letter-spacing: -0.015em;
+color: #000000;
+}
+
+.cal-text{
+font-weight: 600;
+font-size: 32px;
+line-height: 33px;
+letter-spacing: -0.015em;
+}
+
+.cal-button{
+    width: 100%;
+}
+
+.mining-info {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 33px;
+}
+
+.mining-div {
+    box-sizing: border-box;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #0090FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.pool-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+
+.pool-values {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 33px;
+
+    letter-spacing: -0.015em;
+
+    color: #0090FF;
+}
+
+.pool-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.25);
+}
+
+/* help section */
+
+.help-section {
+    width: 100%;
+    background: #F0F9FF;
+}
+
+.help-items {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px 17px rgba(24, 92, 255, 0.04);
+    border-radius: 6px;
+    padding: 30px 35px 45px;
+}
+
+.help-heading {
+    width: 280px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+    color: #292D33;
+    border: none;
+
+}
+
+.help-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+    color: #9497A1;
+    border: none;
+}
+
+.help-date{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: -0.015em;
+color: #9497A1;
+}
+
+.btn-net{
+    width: 61px;
+    border: 1px solid #F1F6FA;
+    border-radius: 6px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: -0.015em;
+color: hsl(202, 71%, 52%);
+}
+
+.btn-learn{
+align-items: center;
+width: 190px;
+background: #2D9CDB;
+box-shadow: 0px 12px 30px rgba(24, 92, 255, 0.18);
+border-radius: 6px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;letter-spacing: -0.015em;
+color: #FFFFFF;
+
+}
+
+/* testimony */
+
+.testimonies-section{
+width: 100%;
+padding-bottom: 100px;
+}
+
+.btn1-testimony{
+padding: 15px 40px;
+width: 110px;
+height: 60px;
+background: #F0F9FF;
+border-radius: 20px;
+}
+
+.btn2-testimony{
+padding: 15px 40px;
+width: 110px;
+height: 60px;
+background: #F0F9FF;
+border-radius: 20px;
+}
+
+.testimonials{
+    background: #FFFFFF;    
+    box-shadow: 0px 4px 12px rgba(12, 68, 204, 0.1);
+    border-radius: 6px;
+}
+
+.testimonials-text{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: -0.015em;
+color: #9497A1;
+}
+
+.testimonials-name{
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.015em;
+color: #292D33;
+}
+
+.testimonials-title{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: -0.015em;
+color: #9497A1;
+}
+
+.person-img{
+    margin-top: -40px;
+}
+
+
+/* stats section */
+
+.stats-section{
+width: 100%;
+background: #2D9CDB;
+}
+
+.stats-elements{
+    width: 100%;
+align-items: center;
+}
+
+.stats-items{
+    width: 100%;
+border-right: solid #F0F9FF 1px;
+
+}
+
+.stats-value{
+font-weight: 800;
+font-size: 56px;
+align-items: center;
+text-align: center;
+letter-spacing: -0.025em;
+color: #FFFFFF;
+
+}
+
+.stats-title{
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+
+}
