@@ -1,11 +1,10 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Home.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navbar from './../../components/NavBar/NavBar'
 import Footer from '../../components/Footer/Footer';
-import ProgressBar from 'react-bootstrap/ProgressBar';
 import clientLogo from '../../img/clientslogos.png'
 import illustration from '../../img/001_illustration.png'
 import icon1 from '../../img/icons1.png'
@@ -15,13 +14,36 @@ import vector from '../../img/Vector.png'
 import vector1 from '../../img/Vector1.png'
 import person1 from '../../img/001_img_person_1.png'
 import person2 from '../../img/002_img_person_2.png'
-import { Image } from 'react-bootstrap';
+import {Image } from 'react-bootstrap';
+import Slider from '@mui/material/Slider';
+
 const Home = () => {
+  const [ value, setValue ] = useState(600); 
+  
+  console.log(value);
+
+  const handleChange = (e)=>{
+    setValue(e.target.value)
+
+    if(e.target.value > 1000){
+      setValue(1000)
+    }
+    if(e.target.value < 1){
+      setValue(1)
+    }
+  }
+
+  // document.querySelectorAll('input[type="number"]').forEach(input => {
+  //   input.oninput = () =>{
+  //     if(input.value.length >input.maxLength) input.value = 1000
+  //   }
+  // })
+
   return (
     <>
       <Navbar />
       {/* welcome bar */}
-      <div className='section-home py-10'>
+      <div id='home' className='section-home pt-10'>
         <Container className='py-10'>
           <Row>
             <Col className='py-10 pl-10'>
@@ -44,15 +66,15 @@ const Home = () => {
           </Row>
         </Container>
 
-
-      </div>
-      <div>
+<div>
         <img className='clientLogo' src={clientLogo} alt="clientlogo" />
       </div>
+      </div>
+      
 
       {/* about us */}
 
-      <div className='aboutSection'>
+      <div id='about' className='aboutSection'>
         <Container className='pb-24' >
           <Row className="justify-content-md-center ">
 
@@ -93,7 +115,7 @@ const Home = () => {
       </div>
 
       {/* mining pool page */}
-      <div className="miningSection py-8 px-2 pb-24">
+      <div id='pages' className="miningSection py-8 px-2 pb-24">
         <Container >
           <Row className="justify-content-md-center ">
 
@@ -121,21 +143,37 @@ const Home = () => {
           <Row className='pt-24'>
             <div className='flex'>
               <span><p className='mining-info mb-4'>Estimated total size :</p></span>
-              <span className='pool-values '>3TB</span>
+              <span className='pool-values '>{value} TB</span>
             </div>
             <Col>
-              <ProgressBar now={60} label={`${60}%`} visuallyHidden />
+            <Slider 
+            sx={{ height: 16 }}
+            defaultValue={value} 
+            valueLabelDisplay="auto" 
+            min={20} 
+            max={1000} 
+            value={value}
+            onChange={handleChange}      
+            />
             </Col>
           </Row>
 
           <Row>
             <Col className='flex'>
-              <button className='cal-1 mt-6 mb-12'>
-                160
-              </button>
+              <input
+              type="number"
+              min={50}
+              max={1000}
+              maxLength={4}
+              className='cal-1 mt-6 mb-12' 
+              placeholder='160' 
+              defaultValue={value}
+              value={value}
+              onChange={handleChange}/>
+              
               <p className='cal-text d-flex align-items-center px-3' >HDD of</p>
               <select name="" id="cars" className='cal-1 mt-6 mb-12'>
-                <option value="">128GB</option>
+                <option value="">1000T</option>
               </select>
             </Col>
           </Row>
@@ -155,14 +193,14 @@ const Home = () => {
                 <Col md="auto">
                   <div>
                     <h1 className='pool-title mt-4 '>24h Mining Rewards</h1>
-                    <p className='pool-values '>0.0136 FIL</p>
+                    <p className='pool-values '>{value * 0.0136} FIL</p>
                     <p className='pool-text '>calculate on average</p>
                   </div>
                 </Col>
                 <Col md="auto">
                   <div>
                     <h1 className='pool-title mt-4 '>Current sector pledge</h1>
-                    <p className='pool-values '>0.1976 FIL</p>
+                    <p className='pool-values '>{value * 0.1976} FIL</p>
                     <p className='pool-text '>/32GB</p>
                   </div>
                 </Col>
@@ -230,7 +268,7 @@ const Home = () => {
       </div>
 
       {/* help success */}
-      <div className='help-section py-20'>
+      <div id='elements' className='help-section py-20'>
         <Container>
           <Row className="justify-content-md-center ">
 
@@ -279,7 +317,7 @@ const Home = () => {
       </div>
 
       {/* testimonies page */}
-      <div className='testimonies-section'>
+      <div id='blog' className='testimonies-section'>
         <Container>
           <Row className='justify-content-md-center pb-28 pt-10 '>
             <Col sm="auto" className='mr-96'><h1>Trusted by the best<br /> in the business</h1></Col>
