@@ -1,0 +1,36 @@
+
+.stats-section{
+    width: 100%;
+    background: #2D9CDB;
+    }
+    
+    .stats-elements{
+        width: 100%;
+    align-items: center;
+    }
+    
+    .stats-items{
+        width: 100%;
+    border-right: solid #F0F9FF 1px;
+    
+    }
+    
+    .stats-value{
+    font-weight: 800;
+    font-size: 56px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    
+    }
+    
+    .stats-title{
+        font-weight: 700;
+        font-size: 16px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.015em;
+        color: #FFFFFF;
+    
+    }

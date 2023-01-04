@@ -1,0 +1,121 @@
+
+.aboutSection {
+    width: 100%;
+    background: #F1F6FA;
+}
+
+
+.abouttextdiv {
+    width: 629px;
+}
+
+.about-welcome {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #292D33;
+}
+
+.about-welcome:hover{
+    color: #0090FF;
+    font-size: 56px;
+    transition: 1s;
+}
+
+.about-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #9497A1;
+}
+
+.about-text:hover{
+    font-size: 25px;
+    color: #000000;
+    transition: 1s;
+}
+
+.about-items {
+    padding: 46px 35px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px 17px rgba(10, 10, 11, 0.04);
+    border-radius: 6px;
+}
+
+.about-items:hover{
+    border: #0090FF solid 2px;
+    box-shadow: 0px 12px 30px 117px rgba(18, 18, 185, 0.04);
+    transition: 1s;
+    padding: 3rem 2.5rem;
+
+}
+
+
+.about-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px;
+    gap: 10px;
+
+    width: 70px;
+    height: 70px;
+    border: 1px solid #F1F6FA;
+    border-radius: 12px;
+}
+
+
+.about-icons:hover{
+    width: 90px;
+    height: 90px;
+    transition: 1s;
+}
+
+.items-heading {
+    width: 280px;
+    height: 33px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+    color: #292D33;
+}
+
+.items-heading:hover{
+    width: 280px;
+    height: 33px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+    color: #0090FF;
+    transition: 1s;
+}
+
+.items-text {
+    width: 280px;
+    height: 112px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    color: #9497A1;
+
+}
+
+.items-text:hover{
+    color: #000000;
+
+}

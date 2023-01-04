@@ -22,16 +22,16 @@ const NavBar = () => {
         <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
 
           <Nav className='justify-content-end links'>
-            <Nav.Link href='#home' className=' transition hover:bg-sky-400 rounded-md'>Home</Nav.Link>
-            <Nav.Link href='#about' className='transition active:border-sky-500 hover:bg-sky-400 rounded-md'>Solutions</Nav.Link>
-            <Nav.Link href='#pages' className='transition hover:bg-sky-400 rounded-md'>Pages</Nav.Link>
-            <Nav.Link href='#elements' className='transition hover:bg-sky-400 rounded-md'>Elements</Nav.Link>
-            <Nav.Link href='#blog' className='transition hover:bg-sky-400 rounded-md'>Blog</Nav.Link>
-            <Nav.Link href='#footer' className='transition hover:bg-sky-400 rounded-md'>Contacts</Nav.Link>
+            <a href='#home' className='navLink py-2 px-2'>Home</a>
+            <a href='#about' className='navLink py-2 px-2'>Solutions</a>
+            <a href='#pages' className='navLink py-2 px-2'>Pages</a>
+            <a href='#elements' className='navLink py-2 px-2'>Elements</a>
+            <a href='#blog' className='navLink py-2 px-2'>Blog</a>
+            <a href='#footer' className='navLink py-2 px-2'>Contacts</a>
           </Nav>
-          <button className='NavButton ml-3'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="32px" height="32px">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+          <button className='NavButton ml-3'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" width="32px" height="32px">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
               </svg>Watch the demo</button>
         </Navbar.Collapse>
       </Container>
