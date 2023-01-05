@@ -37,7 +37,7 @@ const Home = () => {
               </div>
             </Col>
             <Col className='pt-20'>
-            <Col className='animate-bounce'>
+            <Col className=''>
               <img src={illustration} alt="illustration" className='img' />
             </Col>
             </Col>

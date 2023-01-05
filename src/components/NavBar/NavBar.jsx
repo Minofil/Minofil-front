@@ -11,7 +11,7 @@ const NavBar = () => {
         <>
        <Navbar collapseOnSelect expand="lg" sticky='top' bg='white'>
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="home">
         <Image src={logo} 
         className="text-center" 
         width="170px" 
@@ -22,12 +22,12 @@ const NavBar = () => {
         <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
 
           <Nav className='justify-content-end links'>
-            <a href='#home' className='navLink py-2 px-2'>Home</a>
-            <a href='#about' className='navLink py-2 px-2'>Solutions</a>
-            <a href='#pages' className='navLink py-2 px-2'>Pages</a>
-            <a href='#elements' className='navLink py-2 px-2'>Elements</a>
-            <a href='#blog' className='navLink py-2 px-2'>Blog</a>
-            <a href='#footer' className='navLink py-2 px-2'>Contacts</a>
+            <a href='home' className='navLink py-2 px-2'>Home</a>
+            <a href='about' className='navLink py-2 px-2'>Solutions</a>
+            <a href='pages' className='navLink py-2 px-2'>Pages</a>
+            <a href='elements' className='navLink py-2 px-2'>Elements</a>
+            <a href='blog' className='navLink py-2 px-2'>Blog</a>
+            <a href='footer' className='navLink py-2 px-2'>Contacts</a>
           </Nav>
           <button className='NavButton ml-3'> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" width="32px" height="32px">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />

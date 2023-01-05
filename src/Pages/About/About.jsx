@@ -24,21 +24,21 @@ const About = () => {
       </Row>
       <Row className="justify-content-md-center px-3">
 
-        <Col md="auto" className='about-items my-2 mr-4'>
+        <Col md="auto" className='about-items px-4 my-2 mr-4'>
           <Image className='about-icons' src={icon1} alt="icon1" />
           <h2 className='items-heading'>Learning</h2>
           <p className='items-text'>
             Find a set of tutorials, courses and teaching materials to learn how to use the Blockchain Filecoin and especially its mining function.
           </p>
         </Col>
-        <Col md="auto" className='about-items my-2 mr-4'>
+        <Col md="auto" className='about-items px-4 my-2 mr-4'>
           <Image className='about-icons' src={icon2} alt="icon1" />
           <h2 className='items-heading'>Embed analytics</h2>
           <p className='items-text'>
           You can find a set of analytical data accessible in real time on the Filecoin platform. Transaction data, storage data and also network efficiency data.
           </p>
         </Col>
-        <Col md="auto" className='about-items my-2 mr-4'>
+        <Col md="auto" className='about-items px-4 my-2 mr-4'>
           <Image className='about-icons' src={icon3} alt="icon1" />
           <h2 className='items-heading'>Turnkey Solution</h2>
           <p className='items-text'>
