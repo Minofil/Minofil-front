@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState } from 'react'
 import './MiningPool.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -6,24 +6,22 @@ import Col from 'react-bootstrap/Col';
 import Slider from '@mui/material/Slider';
 import useFetch from '../../hooks/useFetch';
 
-
+const api = 'http://api.minofil.space:5000'
 
 const MiningPool = () => {
   const [value, setValue] = useState(600);
   const [value2, setValue2] = useState(32);
 
 
+
+
   const numberOfSector = value * 1024 / value2
-
-
-
-
-  const totalNetworkStoragePower = useFetch(`http://localhost:5000/space/network_storage`)
-  const reward = useFetch(`http://localhost:5000/space/rewards`)
-  const costOfSector = useFetch(`http://localhost:5000/space/cost_per_sector`)
-  const messageFee = useFetch(`http://localhost:5000/space/message_fee`)
-  const gasUsed = useFetch(`http://localhost:5000/space/gas_used`)
-  const profit = useFetch(`http://localhost:5000/space/profits`)
+  const totalNetworkStoragePower = useFetch(`${api}/space/network_storage`)
+  const reward = useFetch(`${api}/space/rewards`)
+  const costOfSector = useFetch(`${api}/space/cost_per_sector`)
+  const messageFee = useFetch(`${api}/space/message_fee`)
+  const gasUsed = useFetch(`${api}/space/gas_used`)
+  const profit = useFetch(`${api}/space/profits`)
 
   const yearlyProfit = value * 1024 / 32 * profit.data;
 
