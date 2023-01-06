@@ -153,3 +153,18 @@ letter-spacing: -0.015em;
 
     color: rgba(0, 0, 0, 0.25);
 }
+
+.sector{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+@media screen and (max-width:700px) {
+    .sector{
+        flex-direction: column;
+        padding-top: 2rem;
+        align-items: center;
+    }
+}

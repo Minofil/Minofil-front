@@ -101,20 +101,20 @@ const MiningPool = () => {
         </Row>
 
         <Row>
-          <Col className='flex'>
+          <Col className='sector'>
 
             <input
               type="text"
               min={50}
               max={10000}
               maxLength={4}
-              className='cal-1 mt-6 mb-12'
+              className='cal-1 '
               placeholder='160'
               value = {numberOfSector}
               onChange={handleChange} />
 
-            <p className='cal-text d-flex align-items-center px-1' >Sector of</p>
-            <select name="" id="ddlViewBy" onClick={onClickHandler} className='cal-1 mt-6 mb-12'>
+            <p className='cal-text d-flex align-items-center px-3' >Sector of</p>
+            <select name="" id="ddlViewBy" onClick={onClickHandler} className='cal-1 '>
               <option value={32} id='one'>32 Gib</option>
               <option value={64}id='two'>64 Gib</option>
             </select>
