@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 
 const Help = () => {
   return (
-    <div id='elements' className='help-section py-20'>
+    <div id='learning' className='help-section py-20'>
         <Container>
           <Row className="justify-content-md-center ">
 

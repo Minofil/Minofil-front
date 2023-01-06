@@ -28,7 +28,6 @@
 
     .testimonials:hover{
         border: solid #2D9CDB 3px;
-        transition: 1s;
         box-shadow: 0px 4px 12px 10px rgba(12, 68, 204, 0.1);
 
     }

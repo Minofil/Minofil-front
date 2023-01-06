@@ -10,8 +10,8 @@ import {Image } from 'react-bootstrap';
 
 const About = () => {
   return (
-    <div id='about' className='aboutSection'>
-    <Container className='pb-24' >
+    <div  className='aboutSection'>
+    <Container id='about' className='pb-24' >
       <Row className="justify-content-md-center ">
 
         <Col md="auto" className='pt-14' >

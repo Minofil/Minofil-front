@@ -55,7 +55,7 @@ const MiningPool = () => {
 
 
   return (
-    <div id='pages' className="miningSection py-8 px-2 pb-24">
+    <div id='simulator' className="miningSection py-8 px-2 pb-24">
       <Container >
         <Row className="justify-content-md-center ">
 
