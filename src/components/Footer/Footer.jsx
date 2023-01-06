@@ -12,7 +12,7 @@ import {BsBehance} from 'react-icons/bs'
 
 const Footer = () => {
     return (
-        <div id='footer' className='footer'>
+        <div id='contact' className='footer'>
             <Container>
                 <Row className='footer-row1 py-6'>
                     <Col sm={6}>
