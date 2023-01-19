@@ -6,14 +6,12 @@ import Col from 'react-bootstrap/Col';
 import Slider from '@mui/material/Slider';
 import useFetch from '../../hooks/useFetch';
 
-const api = 'http://api.minofil.space:5000'
+const api = 'https://api.minofil.space'
+// const api = 'http://localhost:5000'
 
 const MiningPool = () => {
   const [value, setValue] = useState(600);
   const [value2, setValue2] = useState(32);
-
-
-
 
   const numberOfSector = value * 1024 / value2
   const totalNetworkStoragePower = useFetch(`${api}/space/network_storage`)
@@ -35,6 +33,8 @@ const MiningPool = () => {
 
   const estimatedCollateral = costOfSector.data * 32 * value
 
+
+  console.log(reward.data);
 
   const handleChange = (e) => {
     setValue(e.target.value)
