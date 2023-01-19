@@ -2,6 +2,7 @@
   "name": "minofil",
   "version": "0.1.0",
   "private": true,
+  "engines": { "node" : ">=16.0.0 <18.0.0" },
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
